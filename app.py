@@ -19,9 +19,13 @@ Hi **{}** 👋
 
 Just send me a song name and I'll send the audio to you on Telegram.
 
-__Follow dev on github [@ImJanindu](https://github.com/ImJanindu)__
+[🔥Updates](buttonurl://https://T.me/SlapTap)
 
-__A part of **@JaguarBots**__
+[🚀Support](buttonurl://https://T.me/slaptaps)
+
+[✌Source Code](buttonurl://https://youtu.be/dQw4w9WgXcQ)
+
+__Proudly Made With **@SlalTap**__
 """
 
 @bot.on_message(filters.command("start") & filters.private)
