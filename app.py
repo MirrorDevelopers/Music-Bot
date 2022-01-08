@@ -25,7 +25,7 @@ Just send me a song name and I'll send the audio to you on Telegram.
 
 [✌Source Code](buttonurl://https://youtu.be/dQw4w9WgXcQ)
 
-__Proudly Made With **@SlalTap**__
+__❤Proudly Made With **@SlapTap**__
 """
 
 @bot.on_message(filters.command("start") & filters.private)
@@ -78,9 +78,9 @@ async def get_songs(_, message):
     except Exception as e:
         return await m.edit(f"**Download Failed** \n\n```{e}```")
       
-    cap = f"**🎧 Title:** {title} \n**🎥 Channel:** {channel} \n**⏳ Duration:** {dur} \n\n**📮 By @JaguarBots**"
+    cap = f"**🎧 Title:** {title} \n**🎥 Channel:** {channel} \n**⏳ Duration:** {dur} \n\n**📮 By @SlappyMusicBot**"
     aud = f"{ytdl_data['id']}.mp3"
-    await m.edit("Uploading")
+    await m.edit("🛑Uploading...Powerd By @SlapTap")
     await message.reply_audio(audio=open(aud, "rb"), 
                               duration=int(ytdl_data["duration"]), 
                               title=str(ytdl_data["title"]), 
